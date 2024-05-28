@@ -17,4 +17,9 @@ public class TestRestController {
   public String test2() {
     return "test2".toLowerCase();
   }
+
+  @GetMapping("/test3")
+  public String test3() {
+    return "test3".toUpperCase();
+  }
 }
